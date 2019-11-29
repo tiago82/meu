@@ -18,7 +18,7 @@ echo -------------------------------------------
 echo
 
 
-## baixa arquivos de instalação ( trocar link se necessario junto com nome no dpkg) ##
+## baixa arquivos de instalação  ##
 sleep 3
 wget "$URL_GOOGLE_CHROME"
 clear
