@@ -1,14 +1,14 @@
 #!/bin/bash
-## criado por tiago8204 29/11/2019 ##
+## Criado por tiago8204 29/11/2019 ##
 cd /tmp
 
 
-## variaveis (alterar caso o link mude, ou para adptar outro programa no script ###
+## Variaveis (alterar caso o link mude, ou para adptar outro programa no script) ##
 URL_GOOGLE_CHROME="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 DEB_CHROME="google-chrome-stable_current_amd64.deb"
 
 
-## remove vesoes anteriores  ("rm" para excluir) ("-f" para ingnorar caso nao exista )## 
+## Remove vesoes anteriores  ("rm" para excluir) ("-f" para ingnorar caso nao exista) ## 
 rm -f "$DEB_CHROME"
 
 
@@ -18,7 +18,7 @@ echo -------------------------------------------
 echo
 
 
-## baixa arquivos de instalação  ##
+## Baixa arquivos de instalação ##
 sleep 3
 wget "$URL_GOOGLE_CHROME"
 clear
@@ -29,7 +29,7 @@ echo
 
 
 
-## realiza a instação com dpkg ##
+## Realiza a instalação com dpkg ##
 sudo dpkg -i "$DEB_CHROME"
 rm "$DEB_CHROME"
 echo 
