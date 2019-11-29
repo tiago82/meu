@@ -41,7 +41,7 @@ echo
 echo Finalizado.
 sleep 2
 echo
-## read -rsp $'Pressione ENTER para sair...\n' (opciomal) ##
+## read -rsp $'Pressione ENTER para sair...\n' (opcional) ##
 
 
 
