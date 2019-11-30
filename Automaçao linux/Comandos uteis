@@ -1,0 +1,8 @@
+## ver memoria ram disponivel (-m para ver em megas)
+free -m
+
+## vem espaço em megabyte
+df -m
+
+## ver hadware
+dmidecode
