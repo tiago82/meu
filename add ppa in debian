@@ -1,0 +1,2 @@
+## necessario para que o sudo add-apt-repository funcione
+sudo apt-get install software-properties-common
