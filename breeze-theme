@@ -1,3 +1,6 @@
+breze theme são baseados no kde
+
+
 sudo apt install breeze-icon-theme
 sudo apt install breeze-gtk-theme
 sudo apt install breeze-cursor-theme
