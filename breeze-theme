@@ -1,6 +1,9 @@
-apt install breeze-icon-theme
-apt install breeze-gtk-theme
-apt install breeze-cursor-theme
+sudo apt install breeze-icon-theme
+sudo apt install breeze-gtk-theme
+sudo apt install breeze-cursor-theme
 
-teste
- fdp
+
+ 
+ ou 
+ 
+ sudo apt install breeze-icon-theme breeze-gtk-theme breeze-cursor-theme -y
