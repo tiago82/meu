@@ -1,0 +1,5 @@
+## papirus é um temas de icones
+## esse comando baixa para pasta tmp e continua o download caso tenha sido interrompido
+
+
+wget -c -P /tmp http://ftp.br.debian.org/debian/pool/main/p/papirus-icon-theme/papirus-icon-theme_20190203-1_all.deb
